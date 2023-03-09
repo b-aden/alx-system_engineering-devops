@@ -11,4 +11,8 @@ __9-John_Doe__ : Script that sets the mode of the file hello to this
 __10-mirror_permissions__ : Script that sets the mode of the file hello the same as olleh’s mode
 __11-directories_permissions__ : Script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed
 __12-directory_permissions__ : Script that creates a directory called my_dir with permissions 751 in the working directory
-__13-change_group__ : Script that changes the group owner to school for the file hello                  
+__13-change_group__ : Script that changes the group owner to school for the file hello
+__100-change_owner_and_group__ : Script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+__101-symbolic_link_permissions__ : Script that changes the owner and the group owner of _hello to vincent and staff respectively
+__102-if_only __ : Script that changes the owner of the file hello to betty only if it is owned by the user guillaume
+__103-Star_Wars__ : Script that will play the StarWars IV episode in the terminal                  
